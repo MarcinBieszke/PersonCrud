@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Person</title>
+	</head>
+		<body>
+			<h1>Here you can see person from database one by one!</h1>
+			<label>First Name</label><p th:text="${person.firstName}"/><br/> 
+			<label>Last Name</label><p th:text="${person.lastName}"/><br/> 
+			<label>Age</label><p th:text="${person.age}"/><br/> 
+			<label>Profession</label><p th:text="${person.profession}"/><br/> 
+		</body>
+</html>
